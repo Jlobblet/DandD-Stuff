@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>DandD_Stuff</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="HitDie.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Plotly" Version="2.0.0-alpha" />
+      <PackageReference Include="FSharp.Stats" Version="0.4.0" />
+      <PackageReference Include="FSharpAux" Version="1.0.0" />
+      <PackageReference Include="FSharpPlus" Version="1.2.0-CI01803" />
+      <PackageReference Include="XPlot.Plotly" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>
